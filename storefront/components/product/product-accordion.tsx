@@ -56,18 +56,29 @@ export default function ProductAccordion({ description, details }: ProductAccord
 
       <AccordionItem title="Shipping & Returns">
         <ul className="space-y-2">
-          <li>Free standard shipping on orders over $75</li>
-          <li>Express shipping available at checkout</li>
-          <li>Free returns within 30 days of delivery</li>
-          <li>Items must be unworn with original tags</li>
+          <li>Free shipping on orders over ₹999 across India</li>
+          <li>Roasted &amp; dispatched within 48 hours of order</li>
+          <li>Standard delivery: 3–5 business days</li>
+          <li>Express delivery available at checkout</li>
+          <li>30-day freshness guarantee — full refund if not delighted</li>
         </ul>
       </AccordionItem>
 
-      <AccordionItem title="Care Instructions">
+      <AccordionItem title="How to store">
         <ul className="space-y-2">
-          <li>Please refer to the care label on the product</li>
-          <li>Store in a cool, dry place away from direct sunlight</li>
-          <li>Handle with care to maintain product quality</li>
+          <li>Keep in the original valve-sealed bag — it&apos;s purpose-built for freshness</li>
+          <li>Store at room temperature, away from sunlight and heat</li>
+          <li>Do not refrigerate or freeze (moisture is coffee&apos;s enemy)</li>
+          <li>Best within 60 days of roast · peak flavour weeks 2–4</li>
+        </ul>
+      </AccordionItem>
+
+      <AccordionItem title="Brewing tips">
+        <ul className="space-y-2">
+          <li>Use filtered water, just off the boil (92–96°C)</li>
+          <li>Ratio: 1:15 to 1:17 coffee-to-water for filter methods</li>
+          <li>Grind just before you brew for maximum aroma</li>
+          <li>Every bag includes a printed brew guide</li>
         </ul>
       </AccordionItem>
     </div>

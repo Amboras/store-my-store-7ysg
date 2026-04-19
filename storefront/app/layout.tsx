@@ -30,10 +30,10 @@ const body = Inter({
 
 export const metadata: Metadata = {
   title: {
-    default: 'Store — Modern Commerce',
-    template: '%s | Store',
+    default: 'Kavi Coffee — Single-Origin Indian Coffee, Roasted Fresh',
+    template: '%s | Kavi Coffee',
   },
-  description: 'Discover curated products crafted with care. A modern ecommerce experience.',
+  description: 'Small-batch, single-origin coffee from the hills of India. Roasted to order, shipped within 48 hours. Taste coffee the way it was meant to be.',
 }
 
 export default function RootLayout({

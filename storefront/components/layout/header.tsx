@@ -81,9 +81,12 @@ export default function Header() {
             </button>
 
             {/* Logo */}
-            <Link href="/" className="flex items-center gap-2">
-              <span className="font-heading text-2xl font-semibold tracking-tight">
-                Store
+            <Link href="/" className="flex items-center gap-1.5">
+              <span className="font-heading text-2xl font-bold tracking-tight">
+                Kavi
+              </span>
+              <span className="hidden sm:inline-block text-[10px] uppercase tracking-[0.22em] text-muted-foreground pt-1.5">
+                Coffee Co.
               </span>
             </Link>
 
